@@ -1,4 +1,3 @@
-
 //***************************************************//
 //**************** BUDGET COTROLLER *************//
 //***************************************************// 
@@ -162,7 +161,8 @@ var UIController = (function(){
         percentageLabel: '.budget__expenses--percentage',
         container: '.container',
         itemPercentage: '.item__percentage',
-        dateLabel: '.budget__title--month'
+        dateLabel: '.budget__title--month',
+        topBackground: '.top'
     }
     
     formatNumber = function(num, type) {
@@ -323,6 +323,21 @@ var UIController = (function(){
             
             document.querySelector(DOMInput.inputBtn).classList.toggle('red');
             
+            //changing header background
+
+            document.querySelector(DOMInput.topBackground).classList.toggle('top-background');
+
+        },
+
+        checkType: function() {         // used in reset function
+            var type;
+
+            type = document.querySelector(DOMInput.inputType).value;
+
+            if(type === 'exp') {
+                this.changedType();
+                document.querySelector(DOMInput.inputType).options[0].selected = true; //select + again
+            }
         },
             
         getDOMInput: function() {
@@ -463,6 +478,8 @@ var controller = (function(budgetCtrl, UICtrl){
                 percentage: -1
         });
         
+        // 4. use changeType if the before reset the focus was on expenses so to change it to income(blue theme)
+        UICtrl.checkType();
     };
     
    return {
