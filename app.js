@@ -1,6 +1,3 @@
-// add functions reset all
-// set integrity rules . what if user does not add anything but push reset btn
-
 
 //***************************************************//
 //**************** BUDGET COTROLLER *************//
