@@ -1,0 +1,46 @@
+
+@media only screen and (max-width: 1044px) {
+
+    .container {
+        width: 94%;
+        margin: 40px 3%;
+    }
+
+    .income {
+        float: left;
+        width: 47%;
+        margin-right: 6%;
+    }
+
+    .expenses {
+        float: left;
+        width: 47%;
+    }
+}
+
+@media only screen and (max-width: 844px) {
+
+    body { font-size: 15px; }
+
+    .add { padding: 12px; }
+
+    .reset__text {
+        margin-left: 40%;
+        display: inline-block;
+        font-size: 16px;
+        text-align: center;
+    }
+    .reset__btn {
+        display: inline-block;
+        margin-right: 45%;
+    }
+
+    .add__type { width: 55px; }
+
+    .add__description { width: 350px;}
+    .add__value { width: 90px;}
+}
+
+@media only screen and (max-width: 660px) {
+
+}
