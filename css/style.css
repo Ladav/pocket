@@ -1,6 +1,4 @@
-/* try border radius on income and expenses
-
-
+/* to do list */
 
 /**********************************************
 *** GENERAL
@@ -25,6 +23,7 @@ body {
     position: relative;
     height: 100vh;
     font-weight: 400;
+    min-width: 380px;
 }
 
 .right { float: right; }
@@ -130,6 +129,7 @@ body {
     text-align: center;
 }
 
+.reset-container { display: inline-block; }
 .reset__text {
     display: inline-block;
     font-size: 16px;

@@ -24,23 +24,48 @@
 
     .add { padding: 12px; }
 
-    .reset__text {
-        margin-left: 40%;
-        display: inline-block;
-        font-size: 16px;
-        text-align: center;
-    }
-    .reset__btn {
-        display: inline-block;
-        margin-right: 45%;
-    }
+    .reset-container {display: block;}
 
     .add__type { width: 55px; }
-
     .add__description { width: 350px;}
     .add__value { width: 90px;}
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 644px) {
 
+    .budget__income,
+    .budget__expenses {
+        margin: 3%;
+        padding-left: 20px;
+        border-radius: 2px;
+    }
+    .bottom { font-size: 90%;}
+
+    .add__type { width: 45px; }
+    .add__description { width: 300px;}
+    .add__value { width: 80px;}
+
+    .add__description,
+    .add__value {
+        font-size: 95%;
+        padding: 12px 6px;
+    }
+}
+
+@media only screen and (max-width: 528px) {
+    .add {padding: 6px;}
+    .add__btn {
+        display: block;
+        margin: 10px 0 0;
+        width: 100%;
+    }
+    
+    .add__type,
+    .add__description {
+        margin-right: 5px;
+    }
+    
+    .add__type { width: 45px; }
+    .add__description { width: 230px;  }
+    .add__value { width: 75px; margin-right: 0;}
 }
