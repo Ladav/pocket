@@ -1,4 +1,7 @@
-/* to do list */
+/* to do list
+   # try slide effect
+
+*/
 
 /**********************************************
 *** GENERAL
@@ -37,6 +40,7 @@ body {
 
 .top {
     height: 40vh;
+    min-height: 266px;
     background: linear-gradient(rgba(0, 97, 211, 0.78),rgba(162, 0, 0, 0));
     background-size: cover;
     background-position: center;
