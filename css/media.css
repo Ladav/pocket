@@ -53,18 +53,44 @@
 }
 
 @media only screen and (max-width: 528px) {
-    .top { min-height: 266px;}
+    .add { position: relative; }
+    .reset-container {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,0%);
+        bottom: 5px;
+    }
+
+    /*setting minimum height to solve the problem of overlapping of component when keyboard is opened in mobile*/
+    .top {
+        height: 35vh;
+        min-height: 266px;
+    }
+    .budget__value {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .budget__income,
+    .budget__expenses {
+        margin: 3%;
+        padding: 11px 18px;
+        border-radius: 2px;
+    }
 
     .add {padding: 6px;}
+
     .add__btn {
-        display: block;
-        margin: 10px 0 0;
-        width: 100%;
+        padding: 2px;
+        width: 325px;
+        text-align: end;
+        margin-top: 5px;
+        margin-left: 0;
     }
     
     .add__type,
     .add__description {
         margin-right: 5px;
+        margin-top: 5px;
     }
     
     .add__type { width: 45px; }
