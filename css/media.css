@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 1044px) {
 
     .container {
@@ -54,9 +53,10 @@
 
 @media only screen and (max-width: 528px) {
     .add { position: relative; }
-    .reset-container {
+    .reset__container {
         position: absolute;
         left: 50%;
+        -webkit-transform: translate(-50%,0%);
         transform: translate(-50%,0%);
         bottom: 5px;
     }
@@ -103,6 +103,5 @@
     .item { padding: 13px 5px; }
     .income { margin-right: 5%; }
     .item__percentage {margin-left: 10px;}
-
     .item:hover .item__percentage{ display: none; }
 }
