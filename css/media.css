@@ -23,7 +23,7 @@
 
     .add { padding: 12px; }
 
-    .reset-container {display: block;}
+    .reset__container {display: block;}
 
     .add__type { width: 55px; }
     .add__description { width: 350px;}
