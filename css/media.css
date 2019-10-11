@@ -99,4 +99,10 @@
     .add__value { width: 75px; margin-right: 0; }
 
     .container { margin: 30px 3%;}
+
+    .item { padding: 13px 5px; }
+    .income { margin-right: 5%; }
+    .item__percentage {margin-left: 10px;}
+
+    .item:hover .item__percentage{ display: none; }
 }

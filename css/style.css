@@ -1,10 +1,3 @@
-/* to do list
-   # add two new button for two different view first normal view (split view) , second single view (slide view)
-        # add spit/ normal view to the first button
-        # add  slide view to the second button
-
-*/
-
 /**********************************************
 *** GENERAL
 **********************************************/
@@ -233,12 +226,13 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
+.income__title { color: #28B9B5; }
 .expenses__title { color: #FF5049; }
 
 .item {
     padding: 13px;
     border-bottom: 1px solid #e7e7e7;
+    overflow-x: hidden;
 }
 
 .item:first-child { border-top: 1px solid #e7e7e7; }
@@ -298,15 +292,4 @@ h2 {
 .item:hover .item__delete--btn { display: block; }
 .item:hover .item__value { transform: translateX(-20px); }
 .item:hover .item__percentage { transform: translateX(-20px); }
-
-
-.unpaid {
-    background-color: #FFDAD9 !important;
-    cursor: pointer;
-    color: #FF5049;
-
-}
-
-.unpaid .item__percentage { box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1); }
-.unpaid:hover .item__description { font-weight: 900; }
 
