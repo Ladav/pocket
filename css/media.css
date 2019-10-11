@@ -66,6 +66,7 @@
         height: 35vh;
         min-height: 266px;
     }
+
     .budget__value {
         font-size: 40px;
         margin-bottom: 15px;
@@ -77,11 +78,11 @@
         border-radius: 2px;
     }
 
-    .add {padding: 6px;}
+    .add { padding: 6px; }
 
     .add__btn {
         padding: 2px;
-        width: 325px;
+        width: 328px;
         text-align: end;
         margin-top: 5px;
         margin-left: 0;
@@ -95,5 +96,7 @@
     
     .add__type { width: 45px; }
     .add__description { width: 230px;  }
-    .add__value { width: 75px; margin-right: 0;}
+    .add__value { width: 75px; margin-right: 0; }
+
+    .container { margin: 30px 3%;}
 }
